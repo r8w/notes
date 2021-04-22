@@ -16,12 +16,20 @@
  *
  */
 
+@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@5.2/distr/fira_code.css);
+
+@supports (font-variation-settings: normal) {
+  code { font-family: 'Fira Code VF', monospace; }
+}
+
 .hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  background: #333;
+  background: rgb(41, 45, 62);
   color: white;
+  font-family: 'Fira Code', monospace;
+  font-size: 14px;
 }
 
 .hljs-name,
