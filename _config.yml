@@ -1,13 +1,13 @@
 title: r8w # The title of the blog
-author: Rishi Giri # Your name 
+author: Rishi Giri # Your name
 email:  # your email shown in the footer
 url: https://r8w.github.io/notes/ # this is your site's root address.
 description: > # this means to ignore newlines until "show_excerpts:"
   Dump notes @ r8w
-favicon: "./favicon.ico" # set the favicon of the site 
+favicon: "./favicon.ico" # set the favicon of the site
 
 show_excerpts: false # set to true to show excerpts on the homepage
-  
+
 # Moving date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 moving:
@@ -18,29 +18,29 @@ moving:
 
   # generate social links in about page.
   social_links:
-    # twitter: 
+    # twitter:
     github:  CodeDotJS
     rss: RSS
-    # dribbble: 
+    # dribbble:
     # facebook: RishiDotJS
-    # flickr:   
-    # instagram: 
+    # flickr:
+    # instagram:
     # linkedin: yizheng-huang
-    # pinterest: 
-    # youtube: 
-    # youtube_channel: 
-    # youtube_channel_name: 
-    # telegram: 
-    # googleplus: 
-    # microdotblog: 
-    # reddit: 
+    # pinterest:
+    # youtube:
+    # youtube_channel:
+    # youtube_channel_name:
+    # telegram:
+    # googleplus:
+    # microdotblog:
+    # reddit:
 
     # Mastodon instances
     # mastodon:
-    # - username: 
-    #   instance: 
-    # - username: 
-    #   instance: 
+    # - username:
+    #   instance:
+    # - username:
+    #   instance:
 
 # Build settings
 theme: moving # note, please use huangyz0918/moving if you want to publish to Github Pages.
