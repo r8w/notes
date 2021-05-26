@@ -3,8 +3,6 @@ layout: post
 title: "Society"
 ---
 
-# Society
-
 *We don't live in society; we survive in it.*
 
 ---
