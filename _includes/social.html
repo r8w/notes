@@ -16,7 +16,7 @@
       href="https://www.facebook.com/{{
         social.facebook | cgi_escape | escape
       }}"
-      >[Facebook]</a
+      >Facebook</a
     >
   </li>
   {%- endif -%} {%- if social.flickr -%}
@@ -34,7 +34,7 @@
     <a
       class="black-link"
       href="https://github.com/{{ social.github | cgi_escape | escape }}"
-    > [Github]</a
+    > &nbsp; GitHub </a
     >
   </li>
   {%- endif -%} {%- if social.instagram -%}
@@ -44,7 +44,7 @@
       href="https://www.instagram.com/{{
         social.instagram | cgi_escape | escape
       }}"
-      >[Instagram]</a
+      > &nbsp; Instagram</a
     >
   </li>
   {%- endif -%} {%- if social.linkedin -%}
@@ -84,7 +84,7 @@
     <a
       class="black-link"
       href="https://twitter.com/{{ social.twitter | cgi_escape | escape }}"
-    > [Twitter]</a
+    > &nbsp; Twitter </a
     >
   </li>
   {%- endif -%} {%- if social.youtube -%}
@@ -133,8 +133,13 @@
     </a>
   </li>
   {%- endif -%} {%- if social.rss -%}
+
   <li>
-    <a class="black-link" href="{{ 'feed.xml' | relative_url }}">[RSS]</a>
+    <a class="black-link" href="https://r8w.github.io"> &nbsp; Wiki</a>
+  </li>
+
+  <li>
+    <a class="black-link" href="{{ 'feed.xml' | relative_url }}"> &nbsp; RSS</a>
   </li>
   {%- endif -%}
 </ul>

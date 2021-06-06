@@ -219,8 +219,8 @@
   text-decoration: none;
 
   &:hover {
-    color: $text-color;
-    text-decoration: underline;
+    color: blue;
+    text-decoration: none;
   }
 }
 
@@ -317,6 +317,7 @@
     .about-avatar {
       padding: 1px;
       border: 1px solid $grey-color-light;
+      border-radius: 50%;
       width: 10rem;
       height: 10rem;
       margin: 0 2rem 0 0;
