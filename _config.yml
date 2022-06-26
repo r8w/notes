@@ -1,53 +1,60 @@
-title: r8w # The title of the blog
-author: Rishi Giri # Your name
-email:  # your email shown in the footer
-url: https://r8w.github.io/notes/ # this is your site's root address.
-description: > # this means to ignore newlines until "show_excerpts:"
-  Dump notes @ r8w
-favicon: "./favicon.ico" # set the favicon of the site
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole site, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing these this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-show_excerpts: false # set to true to show excerpts on the homepage
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: rishi's notes!
+description: Wiki For Life!
+baseurl: "/notes" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Moving date format
-# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
-moving:
-  avatar_url: "https://avatars.githubusercontent.com/u/9411252?v=4" # avatar in about page
-  about_you: 0.1x Programmer. # short description about you in about page
-  date_format: "%b %d" # date format of posts in home page
-  back_to: "Home" # In the post page, you have a back button above the title, you can custom the text by yourself.
-  move_to: "Wiki"
+permalink: pretty
+exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile", "archive", "reading.md"]
 
-  # generate social links in about page.
-  social_links:
-    twitter: Rishi_Giri_
-    github:  CodeDotJS
-    rss: RSS
-    # dribbble:
-    # facebook: RishiDotJS
-    # flickr:
-    instagram: iama_rishi
-    # linkedin: yizheng-huang
-    # pinterest:
-    # youtube:
-    # youtube_channel:
-    # youtube_channel_name:
-    # telegram:
-    # googleplus:
-    # microdotblog:
-    # reddit:
+# Set a path/url to a logo that will be displayed instead of the title
+#logo: "/assets/images/just-the-docs.png"
 
-    # Mastodon instances
-    # mastodon:
-    # - username:
-    #   instance:
-    # - username:
-    #   instance:
+# Enable or disable the site search
+search_enabled: true
 
-# Build settings
-remote_theme: huangyz0918/moving # note, please use huangyz0918/moving if you want to publish to Github Pages.
+# Set the search token separator for hyphenated-word search:
+search_tokenizer_separator: /[\s/]+/
+
+# Enable or disable heading anchors
+heading_anchors: true
+
+# Aux links for the upper right navigation
+aux_links:
+  "Notes @ GitHub":
+    - "//github.com/r8w/notes"
+
+# Footer content appears at the bottom of every page's main content
+footer_content: "Copyright &copy; 2022 Rishi Giri"
+
+# Color scheme currently only supports "dark" or nil (default)
+color_scheme: nil
+
+# Google Analytics Tracking (optional)
+# e.g, UA-1234567-89
+ga_tracking: UA-125012328-7
 
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
 
-exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile", "archive"]
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
