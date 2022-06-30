@@ -8,4 +8,3 @@ permalink: /docs/coding/kattis
 ---
 
 # Kattis
-

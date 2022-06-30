@@ -8,3 +8,5 @@ permalink: /docs/coding/hackerearth
 ---
 
 # HackerEarth
+
+[Practice](https://www.hackerearth.com/practice/)

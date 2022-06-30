@@ -8,3 +8,5 @@ permalink: /docs/coding/codesignal
 ---
 
 # CodeSignal
+
+[Arcade](https://app.codesignal.com/arcade) / [Profile](https://app.codesignal.com/profile/r8x)

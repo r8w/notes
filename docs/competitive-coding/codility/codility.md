@@ -8,3 +8,5 @@ permalink: /docs/coding/codility
 ---
 
 # Codility
+
+[Challenges](https://app.codility.com/programmers/challenges/) / [Lessons](https://app.codility.com/programmers/lessons/1-iterations/)

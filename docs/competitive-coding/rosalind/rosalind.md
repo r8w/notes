@@ -8,3 +8,5 @@ permalink: /docs/coding/rosalind
 ---
 
 # Rosalind
+
+[Problems](https://rosalind.info/problems/list-view/) / [Profile](https://rosalind.info/users/r8x/)

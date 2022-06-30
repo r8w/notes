@@ -9,3 +9,4 @@ permalink: /docs/coding/binarysearch
 
 # Binary Search
 
+[Problems](https://binarysearch.com/problems) / [Contests](https://binarysearch.com/contest) / [Profile](https://binarysearch.com/@/r8x)
